@@ -47,7 +47,7 @@ The ```Originpro``` style:
 
 <p>If you need any help with OriginproPlot, please first check the FAQ and search through the previous GitHub issues. If you can't find an answer, create a new issue through the GitHub issue tracker.</p>
 
-You can checkout ```Matplotlib's documentation``` for more information on plotting settings.
+You can checkout [Matplotlib's documentation](https://matplotlib.org) for more information on plotting settings.
 
 ## FAQ
 1. Installing OriginproPlot manually
