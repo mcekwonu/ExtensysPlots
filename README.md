@@ -80,12 +80,12 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 3. Installing OriginproPlot within Google Colab, IPython, Jupyter Notebooks, etc.:
     
     * After installing OriginproPlot within one of these environments, you may need to reload the Matplotlib style library. For example:
-    ```python
-    !pip install SciencePlots
-    import matplotlib.pyplot as plt
-    plt.style.reload_library()
-    plt.style.use('science')
-    ```
+        ```python
+        !pip install SciencePlots
+        import matplotlib.pyplot as plt
+        plt.style.reload_library()
+        plt.style.use('science')
+        ```
 
 ## OriginproPlot in Academic Papers
 The following papers use OriginproPlot:
