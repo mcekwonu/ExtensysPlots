@@ -30,20 +30,11 @@ with plt.style.context(['originpro']):
     plt.show()
 ```
 
-You can adjust the legend borderpad for proper placement if you have more that four parameters using:
-
-```python
-# for example, manually set the borderpad after trying out the position values and update the matplotlib parameters.
-import matplotlib.pyplot as plt
-plt.style.use('originpro')
-plt.rcParams.update({
-'legend.borderaxespad': -4.5 })     # specify value here
-```
 ## Examples
-The ```Originpro``` style:
+The ```originpro``` style:
 
 ## Help and Contribution
-<p>Please feel free to contribute to the OriginproPlots repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.</p>
+<p>Please feel free to contribute to the OriginproPlots repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. By that we can discuss if the changes are necessary and the best approach.</p>
 
 If you need any help with OriginproPlots, please first check the [FAQ](https://github.com/mcekwonu/OriginproPlots#faq) and search through the [previous GitHub issues](https://github.com/mcekwonu/OriginproPlots/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/OriginproPlots/issues).
 
@@ -77,14 +68,25 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         "font.serif": ["Times"],  # specify font here
         "font.size":11})          # specify font size here
         ```
-3. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
+        
+3. <p>You can adjust the legend borderpad when you have more than four legend parameters, for proper placement. You will need to try different values manually and see that it is placed correctly.</p>
+
+        ```python
+        # for example, manually set the borderpad after trying out the position values and update the matplotlib parameters.
+        import matplotlib.pyplot as plt
+        plt.style.use('originpro')
+        plt.rcParams.update({
+            'legend.borderaxespad': -4.5 })     # specify value here
+        ```
+        
+4. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
     
     * After installing OriginproPlots within one of these environments, you may need to reload the Matplotlib style library. For example:
         ```python
         !pip install OriginproPlots
         import matplotlib.pyplot as plt
         plt.style.reload_library()
-        plt.style.use('science')
+        plt.style.use('originpro')
         ```
 
 ## OriginproPlots in Academic Papers
@@ -100,7 +102,7 @@ You don't have to cite OriginproPlots if you use it but it's nice if you do:
 ```latex
 @article{OriginproPlots,
     author    = {Michael Chukwuemeka Ekwonu},
-    title     = {mcekwonu/OriginproPlots},
+    title     = {{mcekwonu/OriginproPlots}},
     month     = {mar},
     year      = {2021},
     publisher = {},
