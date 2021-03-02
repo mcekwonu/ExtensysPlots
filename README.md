@@ -28,4 +28,4 @@ with plt.style.context(['originpro']):
     plt.figure()
     plt.plot(x, y)
     plt.show()
-```
+
