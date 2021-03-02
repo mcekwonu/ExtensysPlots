@@ -98,7 +98,7 @@ If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the
 
 You don't have to cite OriginproPlots if you use it but it's nice if you do:
 
----
+
 references:
 - id: mcekwonu2021
   title: mcekwonu/OriginproPlots
@@ -110,7 +110,6 @@ references:
     publisher: {}
     version: {1.0.0}
     type: article
----
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
