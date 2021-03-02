@@ -17,12 +17,15 @@ The pip installation will automatically move all of the Matplotlib style files `
 Please see the [FAQ](https://github.com/mcekwonu/OriginproPlots#faq) section for more information and troubleshooting.
 
 ## Using the Style
+
 "originpro" is the main style from this repo. Whenever you want to use it, simply add the following to the top of your python script:
+
 ```python
 import matplotlib.pyplot as plt
 plt.style.use('originpro')
 ```
 To use any of the styles temporarily, you can use:
+
 ```python
 with plt.style.context(['originpro']):
     plt.figure()
@@ -31,9 +34,11 @@ with plt.style.context(['originpro']):
 ```
 
 ## Examples
+
 The ```originpro``` style:
 
 ## Help and Contribution
+
 <p>Please feel free to contribute to the OriginproPlots repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. By that we can discuss if the changes are necessary and the best approach.</p>
 
 If you need any help with OriginproPlots, please first check the [FAQ](https://github.com/mcekwonu/OriginproPlots#faq) and search through the [previous GitHub issues](https://github.com/mcekwonu/OriginproPlots/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/OriginproPlots/issues).
@@ -41,6 +46,7 @@ If you need any help with OriginproPlots, please first check the [FAQ](https://g
 You can checkout [Matplotlib's documentation](https://matplotlib.org) for more information on plotting settings.
 
 ## FAQ
+
 1. Installing OriginproPlots manually
 
     * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory.  
@@ -60,6 +66,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 2. Using different fonts:
 
     * originproPlots uses the default sans-serif font. If you would like to specify a different font, you can use:
+    
         ```python
         import matplotlib.pyplot as plt
         plt.style.use('originpro')
@@ -69,17 +76,20 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         "font.size":11})          # specify font size here
         ```
         
-3. You can adjust the legend borderpad when you have more than four legend parameters, for proper placement. You will need to try different values manually and see that it is placed correctly.
+3. Adjusting the legend placement:
 
+    * You can adjust the legend borderpad when you have more than four legend parameters, for proper placement. You will need to try different values manually and see that it is placed correctly.
         ```python
         import matplotlib.pyplot as plt
         plt.style.use('originpro')
         plt.rcParams.update({
-        "legend.borderaxespad": -4.5 })     # specify value here```
+        "legend.borderaxespad": -4.5 })     # specify value here
+        ```
         
 4. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
     
     * After installing OriginproPlots within one of these environments, you may need to reload the Matplotlib style library. For example:
+    
         ```python
         !pip install OriginproPlots
         import matplotlib.pyplot as plt
@@ -88,6 +98,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         ```
 
 ## OriginproPlots in Academic Papers
+
 The following papers use OriginproPlots:
 
 If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the list!
@@ -95,7 +106,6 @@ If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the
 ## Citing OriginproPlots
 
 You don't have to cite OriginproPlots if you use it but it's nice if you do:
-
 
 ```latex
 @article{OriginproPlots,
@@ -109,4 +119,5 @@ You don't have to cite OriginproPlots if you use it but it's nice if you do:
 ```
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
