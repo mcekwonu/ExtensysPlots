@@ -90,8 +90,6 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 ## OriginproPlots in Academic Papers
 The following papers use OriginproPlots:
 
-```paper under review ```
-
 If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the list!
 
 ## Citing OriginproPlots
