@@ -95,7 +95,9 @@ The following papers use OriginproPlots:
 If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the list!
 
 ## Citing OriginproPlots
+
 You don't have to cite OriginproPlots if you use it but it's nice if you do:
+
 ---
 references:
 - id: mcekwonu2021
