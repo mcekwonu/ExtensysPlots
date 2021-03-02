@@ -28,6 +28,7 @@ with plt.style.context(['originpro']):
     plt.figure()
     plt.plot(x, y)
     plt.show()
+```
 
 You can adjust the legend borderpad for proper placement if you have more that four parameters using:
 for example, and manually set the borderpad after trying out the position values.
