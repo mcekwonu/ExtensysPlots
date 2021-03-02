@@ -5,10 +5,10 @@ This repo has Matplotlib OriginPro style to format your figure for scientific pu
 ## Getting Started
 The easist way to install OriginproPlot is to use [pip](https://pip.pypa.io/en/stable/): 
 ```
-# to install the latest release (from ```PyPI```) 
+# to install the latest release (from PyPI) 
 pip install OriginproPlot
 
-# to install latest commit (from ```GitHub```)
+# to install latest commit (from GitHub)
 pip install git+https://github.com/mcekwonu/OriginproPlot.git
 ```
 
@@ -95,3 +95,6 @@ You don't have to cite OriginproPlot if you use it but it's nice if you do:
   publisher    = {},
   version      = {1.0.0},
 }
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
