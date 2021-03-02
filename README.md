@@ -59,6 +59,11 @@ You should get back something like /home/mcekwonu/.matplotlib. You would then pu
 ```python 
 cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
 ```
+# OriginproPlot in Academic Papers
+The following papers use OriginproPlot:
+```paper under review ```
+
+If you use OriginproPlot in your paper/thesis, feel free to add it to the list!
 
 # Citing OriginproPlot
 You don't have to cite OriginproPlot if you use it but it's nice if you do:
