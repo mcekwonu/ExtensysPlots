@@ -57,7 +57,7 @@ If you're not sure where this is, in an interactive python console type:
 import matplotlib
 print(matplotlib.get_configdir())
 ```
-    * You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
+   * You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
 
 ```python 
 cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
