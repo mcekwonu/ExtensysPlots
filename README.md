@@ -8,11 +8,11 @@ The easist way to install OriginproPlot is to use [pip](https://pip.pypa.io/en/s
 # to install the latest release (from PyPI) 
 pip install OriginproPlot
 
-# to install latest commit (from [GitHub](https://githuib.com))
+# to install latest commit (from GitHub)
 pip install git+https://github.com/mcekwonu/OriginproPlot.git
 ```
 
-The pip installation will automatically move all of the Matplotlib style files * *.mplstyle* into the appropriate directory on your computer.
+The pip installation will automatically move all of the Matplotlib style files ```*.mplstyle``` into the appropriate directory on your computer.
 
 Please see the FAQ section for more information and troubleshooting.
 
