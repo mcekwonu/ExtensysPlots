@@ -50,8 +50,7 @@ You can checkout Matplotlib's documentation for more information on plotting set
 ## FAQ
 1. Installing OriginproPlot manually
 
-    * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory. 
- 
+    * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory.  
 If you're not sure where this is, in an interactive python console type:
 ```python
 import matplotlib
