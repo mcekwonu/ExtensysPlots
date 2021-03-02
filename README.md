@@ -71,12 +71,12 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         
 3. You can adjust the legend borderpad when you have more than four legend parameters, for proper placement. You will need to try different values manually and see that it is placed correctly.
 
-        ```python
-        import matplotlib.pyplot as plt
-        plt.style.use('originpro')
-        plt.rcParams.update({
+            ```python
+            import matplotlib.pyplot as plt
+            plt.style.use('originpro')
+            plt.rcParams.update({
             "legend.borderaxespad": -4.5 })     # specify value here
-        ```
+            ```
         
 4. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
     
