@@ -37,4 +37,4 @@ You can adjust the legend borderpad for proper placement if you have more that f
 plt.rcParams['legend.borderaxespad'] = -4.5
 plt.rcParams.update()
 ```
-# Example
+# Examples
