@@ -45,7 +45,7 @@ The ```Originpro``` style:
 ## Help and Contribution
 <p>Please feel free to contribute to the OriginproPlots repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.</p>
 
-If you need any help with OriginproPlots, please first check the [FAQ](FAQ) and search through the [previous GitHub issues](https://github.com/mcekwonu/OriginproPlots/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/OriginproPlots/issues/new).
+If you need any help with OriginproPlots, please first check the [FAQ](FAQ) and search through the [previous GitHub issues](https://github.com/mcekwonu/OriginproPlots/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/OriginproPlots/issues).
 
 You can checkout [Matplotlib's documentation](https://matplotlib.org) for more information on plotting settings.
 
