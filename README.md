@@ -98,13 +98,13 @@ You don't have to cite OriginproPlots if you use it but it's nice if you do:
 
 
 ```latex
-@article{mcekwonu2021,
-    author = "Michael Chukwuemeka Ekwonu",
-    title = "{mcekwonu/OriginproPlots}",
-    month = "{mar}",
-    year = "{2021}",
-    publisher = "{}",
-    version = "{1.0.0}",
+@article{OriginproPlots,
+    author    = {Michael Chukwuemeka Ekwonu},
+    title     = {mcekwonu/OriginproPlots},
+    month     = {mar},
+    year      = {2021},
+    publisher = {},
+    version   = {1.0.0},
 }
 ```
 
