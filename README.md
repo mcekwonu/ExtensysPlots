@@ -51,21 +51,22 @@ You can checkout Matplotlib's documentation for more information on plotting set
 1. Installing OriginproPlot manually
 
     * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory.  
-If you're not sure where this is, in an interactive python console type:
+    If you're not sure where this is, in an interactive python console type:
 
-```python
-import matplotlib
-print(matplotlib.get_configdir())
-```
+    ```python
+    import matplotlib
+    print(matplotlib.get_configdir())
+    ```
+    
     * You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
 
-```python 
-cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
-```
+    ```python 
+    cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
+    ```
 
 2. Using different fonts:
 
-    * SciencePlots uses the default serif font. If you would like to specify a different font, you can use:
+    * originproPlot uses the default sans-serif font. If you would like to specify a different font, you can use:
 
 
 ## OriginproPlot in Academic Papers
