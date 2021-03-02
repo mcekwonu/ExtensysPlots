@@ -69,7 +69,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         "font.size":11})          # specify font size here
         ```
         
-3. <p>You can adjust the legend borderpad when you have more than four legend parameters, for proper placement. You will need to try different values manually and see that it is placed correctly.</p>
+3. You can adjust the legend borderpad when you have more than four legend parameters, for proper placement. You will need to try different values manually and see that it is placed correctly.
 
         ```python
         # for example, manually set the borderpad after trying out the position values and update the matplotlib parameters.
