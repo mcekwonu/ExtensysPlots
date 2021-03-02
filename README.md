@@ -5,10 +5,10 @@ This repo has Matplotlib OriginPro style to format your figure for scientific pu
 ## Getting Started
 The easist way to install OriginproPlot is to use [pip](https://pip.pypa.io/en/stable/): 
 ```
-# to install the latest release (from PyPI) 
+# to install the latest release (from ```PyPI```) 
 pip install OriginproPlot
 
-# to install latest commit (from GitHub)
+# to install latest commit (from ```GitHub```)
 pip install git+https://github.com/mcekwonu/OriginproPlot.git
 ```
 
@@ -37,7 +37,7 @@ You can adjust the legend borderpad for proper placement if you have more that f
 import matplotlib.pyplot as plt
 plt.style.use('originpro')
 plt.rcParams.update({
-'legend.borderaxespad': -4.5 # specify value here})
+'legend.borderaxespad': -4.5 })     # specify value here
 ```
 ## Examples
 The ```Originpro``` style:
