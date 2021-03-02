@@ -7,7 +7,7 @@ The easist way to install OriginproPlot is to use pip:
 ```#to install the latest release (from PyPi) 
 pip install OriginproPlot
 
-```#to install latest commit (from github)
+#to install latest commit (from github)
 pip install git+https://github.com/mcekwonu/OriginproPlot.git
 ```
 
