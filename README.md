@@ -77,10 +77,19 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         "font.serif": ["Times"],  # specify font here
         "font.size":11})          # specify font size here
         ```
-
+3. Installing OriginproPlot within Google Colab, IPython, Jupyter Notebooks, etc.:
+    
+    * After installing OriginproPlot within one of these environments, you may need to reload the Matplotlib style library. For example:
+    ```python
+    !pip install SciencePlots
+    import matplotlib.pyplot as plt
+    plt.style.reload_library()
+    plt.style.use('science')
+    ```
 
 ## OriginproPlot in Academic Papers
 The following papers use OriginproPlot:
+
 ```paper under review ```
 
 If you use ```OriginproPlot``` in your paper/thesis, feel free to add it to the list!
