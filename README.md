@@ -12,7 +12,7 @@ pip install OriginproPlot
 pip install git+https://github.com/mcekwonu/OriginproPlot.git
 ```
 
-<p>The pip installation will automatically move all of the Matplotlib style files ```*.mplstyle``` into the appropriate directory on your computer.</p>
+The pip installation will automatically move all of the Matplotlib style files ```*.mplstyle``` into the appropriate directory on your computer.
 
 Please see the FAQ section for more information and troubleshooting.
 
