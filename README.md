@@ -14,7 +14,7 @@ pip install git+https://github.com/mcekwonu/OriginproPlot.git
 
 The pip installation will automatically move all of the Matplotlib style files ```*.mplstyle``` into the appropriate directory on your computer.
 
-Please see the FAQ section for more information and troubleshooting.
+Please see the [FAQ] section for more information and troubleshooting.
 
 ## Using the Style
 "originpro" is the main style from this repo. Whenever you want to use it, simply add the following to the top of your python script:
@@ -45,7 +45,7 @@ The ```Originpro``` style:
 ## Help and Contribution
 <p>Please feel free to contribute to the OriginproPlot repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.</p>
 
-<p>If you need any help with OriginproPlot, please first check the FAQ and search through the previous GitHub issues. If you can't find an answer, create a new issue through the GitHub issue tracker.</p>
+<p>If you need any help with OriginproPlot, please first check the [FAQ] and search through the [previous GitHub issues]. If you can't find an answer, create a new issue through the [GitHub issue tracker].</p>
 
 You can checkout [Matplotlib's documentation](https://matplotlib.org) for more information on plotting settings.
 
