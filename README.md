@@ -87,23 +87,28 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         plt.style.use('science')
         ```
 
-## OriginproPlot in Academic Papers
+## OriginproPlots in Academic Papers
 The following papers use OriginproPlots:
 
 ```paper under review ```
 
 If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the list!
 
-## Citing OriginproPlot
+## Citing OriginproPlots
 You don't have to cite OriginproPlots if you use it but it's nice if you do:
-@article{SciencePlots,
-  author       = {Michael C. Ekwonu},
-  title        = {{mcekwonu/OriginproPlots}},
-  month        = mar,
-  year         = 2021,
-  publisher    = {},
-  version      = {1.0.0},
-}
+---
+references:
+- id: mcekwonu2021
+  title: mcekwonu/OriginproPlots
+  author:
+  - family: Ekwonu
+    given: Michael C.
+    month: mar
+    year:  2021
+    publisher: {}
+    version: {1.0.0}
+    type: article
+---
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
