@@ -75,7 +75,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         import matplotlib.pyplot as plt
         plt.style.use('originpro')
         plt.rcParams.update({
-            'legend.borderaxespad': -4.5 })     # specify value here
+            "legend.borderaxespad": -4.5 })     # specify value here
         ```
         
 4. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
