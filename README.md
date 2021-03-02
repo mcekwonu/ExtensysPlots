@@ -17,4 +17,7 @@ The pip installation will automatically move all of the Matplotlib style files *
 Please see the FAQ section for more information and troubleshooting.
 
 # Using the Style
-
+"originpro" is the main style from this repo. Whenever you want to use it, simply add the following to the top of your python script:
+```
+import matplotlib.pyplot as plt
+plt.style.use('originpro')
