@@ -1,15 +1,15 @@
-# Originpro Plot
+# Originpro Plots
 <p>Matplotlib style for making originpro plot figures
-This repo has Matplotlib OriginPro style to format your figure for scientific publications and presentation.</p>
+This repo has Matplotlib Originpro style to format your figure for scientific publications and presentation.</p>
 
 ## Getting Started
-The easist way to install OriginproPlot is to use [pip](https://pip.pypa.io/en/stable/): 
+The easist way to install OriginproPlots is to use [pip](https://pip.pypa.io/en/stable/): 
 ```
 # to install the latest release (from PyPI) 
-pip install OriginproPlot
+pip install OriginproPlots
 
 # to install latest commit (from GitHub)
-pip install git+https://github.com/mcekwonu/OriginproPlot.git
+pip install git+https://github.com/mcekwonu/OriginproPlots.git
 ```
 
 The pip installation will automatically move all of the Matplotlib style files ```*.mplstyle``` into the appropriate directory on your computer.
@@ -43,14 +43,14 @@ plt.rcParams.update({
 The ```Originpro``` style:
 
 ## Help and Contribution
-<p>Please feel free to contribute to the OriginproPlot repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.</p>
+<p>Please feel free to contribute to the OriginproPlots repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.</p>
 
-If you need any help with OriginproPlot, please first check the [FAQ](FAQ) and search through the [previous GitHub issues](https://github.com/mcekwonu/OriginproPlot/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/OriginproPlot/issues/new).
+If you need any help with OriginproPlots, please first check the [FAQ](FAQ) and search through the [previous GitHub issues](https://github.com/mcekwonu/OriginproPlots/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/OriginproPlots/issues/new).
 
 You can checkout [Matplotlib's documentation](https://matplotlib.org) for more information on plotting settings.
 
 ## FAQ
-1. Installing OriginproPlot manually
+1. Installing OriginproPlots manually
 
     * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory.  
     If you're not sure where this is, in an interactive python console type:
@@ -68,7 +68,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 2. Using different fonts:
 
-    * originproPlot uses the default sans-serif font. If you would like to specify a different font, you can use:
+    * originproPlots uses the default sans-serif font. If you would like to specify a different font, you can use:
         ```python
         import matplotlib.pyplot as plt
         plt.style.use('originpro')
@@ -77,28 +77,28 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         "font.serif": ["Times"],  # specify font here
         "font.size":11})          # specify font size here
         ```
-3. Installing OriginproPlot within Google Colab, IPython, Jupyter Notebooks, etc.:
+3. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
     
-    * After installing OriginproPlot within one of these environments, you may need to reload the Matplotlib style library. For example:
+    * After installing OriginproPlots within one of these environments, you may need to reload the Matplotlib style library. For example:
         ```python
-        !pip install SciencePlots
+        !pip install OriginproPlots
         import matplotlib.pyplot as plt
         plt.style.reload_library()
         plt.style.use('science')
         ```
 
 ## OriginproPlot in Academic Papers
-The following papers use OriginproPlot:
+The following papers use OriginproPlots:
 
 ```paper under review ```
 
-If you use ```OriginproPlot``` in your paper/thesis, feel free to add it to the list!
+If you use ```OriginproPlots``` in your paper/thesis, feel free to add it to the list!
 
 ## Citing OriginproPlot
-You don't have to cite OriginproPlot if you use it but it's nice if you do:
+You don't have to cite OriginproPlots if you use it but it's nice if you do:
 @article{SciencePlots,
   author       = {Michael C. Ekwonu},
-  title        = {{mcekwonu/OriginproPlot}},
+  title        = {{mcekwonu/OriginproPlots}},
   month        = mar,
   year         = 2021,
   publisher    = {},
