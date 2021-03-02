@@ -34,8 +34,10 @@ You can adjust the legend borderpad for proper placement if you have more that f
 
 ```python
 # for example, manually set the borderpad after trying out the position values and update the matplotlib parameters.
-plt.rcParams['legend.borderaxespad'] = -4.5
-plt.rcParams.update()
+import matplotlib.pyplot as plt
+plt.style.use('originpro')
+plt.rcParams.update({
+'legend.borderaxespad': -4.5 # specify value here})
 ```
 ## Examples
 The ```Originpro``` style:
@@ -45,7 +47,7 @@ Please feel free to contribute to the OriginproPlot repo! Before starting a new 
 
 If you need any help with OriginproPlot, please first check the FAQ and search through the previous GitHub issues. If you can't find an answer, create a new issue through the GitHub issue tracker.
 
-You can checkout Matplotlib's documentation for more information on plotting settings.
+You can checkout ```Matplotlib's documentation``` for more information on plotting settings.
 
 ## FAQ
 1. Installing OriginproPlot manually
@@ -58,7 +60,7 @@ You can checkout Matplotlib's documentation for more information on plotting set
         print(matplotlib.get_configdir())
         ```
     
-    * You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
+    * You should get back something like ```/home/mcekwonu/.matplotlib```. You would then put the ```*.mplstyle``` files in ```/home/mcekwonu/.matplotlib/stylelib/``` (you may need to create the stylelib directory):
 
         ```python 
         cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
@@ -67,6 +69,14 @@ You can checkout Matplotlib's documentation for more information on plotting set
 2. Using different fonts:
 
     * originproPlot uses the default sans-serif font. If you would like to specify a different font, you can use:
+        ```python
+        import matplotlib.pyplot as plt
+        plt.style.use('originpro')
+        plt.rcParams.update({
+        "font.family": "serif",   # specify font family here
+        "font.serif": ["Times"],  # specify font here
+        "font.size":11})          # specify font size here
+        ```
 
 
 ## OriginproPlot in Academic Papers
