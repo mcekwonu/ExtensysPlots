@@ -41,7 +41,7 @@ plt.rcParams.update()
 The ```Originpro``` style:
 
 ## Help and Contribution
-Please feel free to contribute to the OriginproPlot repo! For example, it would be good to add new styles for different journals. Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.
+Please feel free to contribute to the OriginproPlot repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. That way we can discuss if the changes are necessary and the best approach.
 
 If you need any help with OriginproPlot, please first check the FAQ and search through the previous GitHub issues. If you can't find an answer, create a new issue through the GitHub issue tracker.
 
@@ -49,16 +49,25 @@ You can checkout Matplotlib's documentation for more information on plotting set
 
 ## FAQ
 1. Installing OriginproPlot manually
-If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory. 
+
+ * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory. 
+ 
 If you're not sure where this is, in an interactive python console type:
 ```python
 import matplotlib
 print(matplotlib.get_configdir())
 ```
-You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
+* You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
+
 ```python 
 cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
 ```
+
+2. Using different fonts:
+
+* SciencePlots uses the default serif font. If you would like to specify a different font, you can use:
+
+
 ## OriginproPlot in Academic Papers
 The following papers use OriginproPlot:
 ```paper under review ```
