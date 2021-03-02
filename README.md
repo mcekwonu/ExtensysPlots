@@ -17,7 +17,7 @@ The pip installation will automatically move all of the Matplotlib style files `
 Please see the FAQ section for more information and troubleshooting.
 
 ## Using the Style
-<p>"originpro" is the main style from this repo. Whenever you want to use it, simply add the following to the top of your python script:</p>
+"originpro" is the main style from this repo. Whenever you want to use it, simply add the following to the top of your python script:
 ```python
 import matplotlib.pyplot as plt
 plt.style.use('originpro')
@@ -30,7 +30,7 @@ with plt.style.context(['originpro']):
     plt.show()
 ```
 
-<p>You can adjust the legend borderpad for proper placement if you have more that four parameters using:</p>
+You can adjust the legend borderpad for proper placement if you have more that four parameters using:
 
 ```python
 # for example, manually set the borderpad after trying out the position values and update the matplotlib parameters.
