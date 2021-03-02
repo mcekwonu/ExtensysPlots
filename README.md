@@ -58,3 +58,15 @@ print(matplotlib.get_configdir())
 You should get back something like /home/mcekwonu/.matplotlib. You would then put the ```*.mplstyle``` files in /home/mcekwonu/.matplotlib/stylelib/ (you may need to create the stylelib directory):
 ```python 
 cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
+```
+
+# Citing OriginproPlot
+You don't have to cite OriginproPlot if you use it but it's nice if you do:
+@article{SciencePlots,
+  author       = {Michael C. Ekwonu},
+  title        = {{mcekwonu/OriginproPlot}},
+  month        = mar,
+  year         = 2021,
+  publisher    = {},
+  version      = {1.0.0},
+}
