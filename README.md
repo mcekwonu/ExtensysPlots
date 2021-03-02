@@ -31,8 +31,8 @@ with plt.style.context(['originpro']):
 ```
 
 You can adjust the legend borderpad for proper placement if you have more that four parameters using:
-for example, and manually set the borderpad after trying out the position values.
-```python
 
+```python
+# for example, manually set the borderpad after trying out the position values.
 plt.rcParams['legend.borderaxespad'] = -4.5
     plt.rcParams.update()
