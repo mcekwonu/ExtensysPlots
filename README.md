@@ -14,7 +14,7 @@ pip install git+https://github.com/mcekwonu/OriginproPlots.git
 
 The pip installation will automatically move all of the Matplotlib style files ```*.mplstyle``` into the appropriate directory on your computer.
 
-Please see the [FAQ] section for more information and troubleshooting.
+Please see the [FAQ](https://github.com/mcekwonu/OriginproPlots#faq) section for more information and troubleshooting.
 
 ## Using the Style
 "originpro" is the main style from this repo. Whenever you want to use it, simply add the following to the top of your python script:
