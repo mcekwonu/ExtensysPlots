@@ -22,3 +22,10 @@ Please see the FAQ section for more information and troubleshooting.
 import matplotlib.pyplot as plt
 plt.style.use('originpro')
 ```
+To use any of the styles temporarily, you can use:
+```python
+with plt.style.context(['originpro']):
+    plt.figure()
+    plt.plot(x, y)
+    plt.show()
+```
