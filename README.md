@@ -1,4 +1,4 @@
-## Originpro Plot
+# Originpro Plot
 
 `https://doi.org/10.5281/zenodo.4572436?sanitize=true&raw=true`
 
