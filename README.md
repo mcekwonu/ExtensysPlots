@@ -128,6 +128,8 @@ You don't have to cite OriginproPlot if you use it but it's nice if you do:
     year      = {2021},
     publisher = {},
     version   = {1.0.0},
+    doi       = {10.5281/zenodo.4572436},
+    url       = {https://doi.org/10.5281/zenodo.4572436}
 }
 ```
 
