@@ -37,6 +37,7 @@ with plt.style.context(['originpro']):
 ## Examples
 
 The ```originpro``` style:
+![fig1](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig1.png)
 
 ## Help and Contribution
 
