@@ -57,7 +57,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         print(matplotlib.get_configdir())
         ```
         
-        In my casew it return ```/home/mce/.config/matplotlib/stylelib/```
+        In my case it returned ```/home/mce/.config/matplotlib```
     
     * You should get back something like ```/home/mce/.config/matplotlib```. You would then put the ```*.mplstyle``` files in ```/home/mce/.config/matplotlib/stylelib/``` (you need to create the stylelib directory):
 
