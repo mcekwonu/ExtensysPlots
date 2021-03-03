@@ -37,6 +37,12 @@ with plt.style.context(['extensys']):
     plt.show()
 ```
 
+The default format to save figure is ```.png``` with ```dpi=300```. Other formats by obtained by passing it in the ```plt.savefig``` as well as the ```dpi```. For example:
+
+```python
+plt.savefig("figures/fig1" + ".pdf", dpi=1000)
+```
+
 ## Examples
 
 The ```extensys``` style:
@@ -53,7 +59,7 @@ The ```extensys``` + ```multiple left and right y-axis``` style
 
 ## Help and Contribution
 
-<p>Please feel free to contribute to the ExtensysPlots repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. By that we can discuss if the changes are necessary and the best approach.</p>
+Please feel free to contribute to the ExtensysPlots repo! Before starting a new style or making any changes, please create an issue through the [GitHub issue tracker](https://github.com/mcekwonu/ExtensysPlots/issues). 
 
 If you need any help with ExtensysPlots, please first check the [FAQ](https://github.com/mcekwonu/ExtensysPlots#faq) and search through the [previous GitHub issues](https://github.com/mcekwonu/ExtensysPlots/issues). If you can't find an answer, create a new issue through the [GitHub issue tracker](https://github.com/mcekwonu/ExtensysPlots/issues).
 
