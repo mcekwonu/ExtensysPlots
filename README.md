@@ -43,6 +43,16 @@ The default format to save figure is ```.png``` with ```dpi=300```. Other format
 plt.savefig("figures/fig1" + ".pdf", dpi=1000)
 ```
 
+Default figure size is ```(3.5, 2.5)```. Desired figure size can called using:
+
+```python
+plt.figure(figsize=(8, 6))
+```
+or
+```python
+fig, ax = plt.subplots(figsize=(8, 6))
+```
+
 ## Examples
 
 The ```extensys``` style:
