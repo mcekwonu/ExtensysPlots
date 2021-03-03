@@ -39,8 +39,14 @@ with plt.style.context(['originpro']):
 The ```originpro``` style:
 ![fig1](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig1.png)
 
-THe ```originpro``` + ```grid``` style
+The ```originpro``` + ```grid``` style
 ![fig2](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig2.png)
+
+The ```originpro``` + ```multiple y-axis``` style
+![fig3](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig3.png)
+
+The ```originpro``` + ```multiple left and right y-axis``` style
+![fig4](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig4.png)
 
 ## Help and Contribution
 
