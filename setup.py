@@ -56,10 +56,9 @@ setup(
     long_description_content_type='text/markdown',
     license='MIT',
     keywords=[
-        "originproplot",
-        "matplotlib-style-sheet",
-        "scientific-papers",
-        "matplotlib-styles",
+        "originpro-plot",
+        "matplotlib-style-sheets",
+        "scientific-publications",
         "matplotlib-figures",
         "python"
     ],
