@@ -1,7 +1,7 @@
 ## Originpro Plot
 <p>Matplotlib style for making originpro plot figures
 This repo has Matplotlib Originpro style to format your figure for scientific publications and presentation.</p>
-![alt text](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig1.png?raw=true)
+![alt text](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig1.png)
 
 ## Getting Started
 The easist way to install OriginproPlot is to use [pip](https://pip.pypa.io/en/stable/): 
