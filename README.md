@@ -39,6 +39,9 @@ with plt.style.context(['originpro']):
 The ```originpro``` style:
 ![fig1](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig1.png)
 
+THe ```originpro``` + ```grid``` style
+![fig2](https://github.com/mcekwonu/OriginproPlot/blob/main/examples/figures/fig2.png)
+
 ## Help and Contribution
 
 <p>Please feel free to contribute to the OriginproPlot repo! Before starting a new style or making any changes, please create an issue through the GitHub issue tracker. By that we can discuss if the changes are necessary and the best approach.</p>
