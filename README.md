@@ -56,11 +56,12 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         import matplotlib
         print(matplotlib.get_configdir())
         ```
+     You will get something like this: ```/home/mce/.config/matplotlib/stylelib/```
     
-    * You should get back something like ```/home/mce/.matplotlib```. You would then put the ```*.mplstyle``` files in ```/home/mce/.matplotlib/stylelib/``` (you need to create the stylelib directory):
+    * You should get back something like ```/home/mce/.config/matplotlib```. You would then put the ```*.mplstyle``` files in ```/home/mce/.config/matplotlib/stylelib/``` (you need to create the stylelib directory):
 
         ```python 
-        cp styles/*/*.mplstyle ~/.matplotlib/stylelib/
+        cp styles/*/*.mplstyle ~/.config/matplotlib/stylelib/
         ```
 
 2. Using different fonts:
