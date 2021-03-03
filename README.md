@@ -47,7 +47,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 ## FAQ
 
-1. Installing OriginproPlots manually
+1. Installing OriginproPlot manually
 
     * If you like, you can install the ```*.mplstyle``` files manually. First, clone the repository and then copy all of the ```*.mplstyle``` files into your Matplotlib style directory.  
     If you're not sure where this is, in an interactive python console type:
@@ -67,7 +67,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 2. Using different fonts:
 
-    * originproPlots uses the default sans-serif font. If you would like to specify a different font, you can use:
+    * originproPlot uses the default sans-serif font. If you would like to specify a different font, you can use:
     
         ```python
         import matplotlib.pyplot as plt
@@ -85,7 +85,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         import matplotlib.pyplot as plt
         plt.style.use('originpro')
         plt.rcParams.update({
-        "legend.borderaxespad": -4.5 })     # specify value here
+        "legend.borderaxespad": -4.0 })     # specify value here
         ```
         
 4. Installing OriginproPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
@@ -99,13 +99,13 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         plt.style.use('originpro')
         ```
 
-## OriginproPlots in Academic Papers
+## OriginproPlot in Academic Papers
 
 The following papers use OriginproPlots:
 
 If you use ```OriginproPlot``` in your paper/thesis, feel free to add it to the list!
 
-## Citing OriginproPlots
+## Citing OriginproPlot
 
 You don't have to cite OriginproPlot if you use it but it's nice if you do:
 
