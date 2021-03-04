@@ -4,7 +4,7 @@
 
 Matplotlib extensys style for making originpro-like figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
-![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png)
+![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png width=250)
 
 ## Getting Started
 The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/stable/): 
@@ -56,16 +56,16 @@ fig, ax = plt.subplots(figsize=(8, 6))
 ## Examples
 
 The ```extensys``` style:
-![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png)
+![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png width=250)
 
 The ```extensys``` + ```grid``` style
-![fig2](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png)
+![fig2](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png width=250)
 
 The ```extensys``` + ```multiple y-axis``` style
-![fig3](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png)
+![fig3](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png width=250)
 
 The ```extensys``` + ```multiple left and right y-axis``` style
-![fig4](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png)
+![fig4](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png width=250)
 
 ## Help and Contribution
 
