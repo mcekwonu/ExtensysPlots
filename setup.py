@@ -1,4 +1,4 @@
-"""Install OriginproPlot.
+"""Install ExtensysPlots.
 
 This will copy the *.mplstyle files into the right directory.
 
@@ -15,7 +15,7 @@ from setuptools import setup
 from setuptools.command.install import install
 
 
-package_name = 'OriginproPlot'
+package_name = 'ExtensysPlots'
 
 # Get the description from README
 root = os.path.abspath(os.path.dirname(__file__))
@@ -51,18 +51,18 @@ setup(
     version='1.0.0',
     author="Chukwuemeka Michael Ekwonu",
     author_email="mersthub@gmail.com",
-    description="Matplotlib format for originpro style plots",
+    description="Matplotlib Extensys style format for scientific publications",
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
     keywords=[
-        "originpro-plot",
+        "extensys-plots",
         "matplotlib-style-sheets",
         "scientific-publications",
         "matplotlib-figures",
         "python"
     ],
-    url="https://github.com/mcekwonu/OriginproPlot/",
+    url="https://github.com/mcekwonu/ExtensysPlots/",
     install_requires=['matplotlib', ],
     cmdclass={'install': PostInstallation, },
 )
