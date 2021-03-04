@@ -53,33 +53,39 @@ The ```extensys``` style:
 
 <p /p>
 
-The ```extensys``` + ```markers``` style
+The ```extensys-ms``` style (with markers)
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png" width=500>
 
 <p /p>
 
-The ```extensys``` + ```grid``` style
+The ```extensys-gd``` style (with grid)
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=500>
 
 <p /p>
 
-The ```extensys``` + ```notebook``` style
+The ```extensys-nb``` style (with jupyter notebook)
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png" width=400>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png" width=500>
 
 <p /p>
 
-The ```extensys``` + ```left and right y-axis``` style
+The ```extensys``` + ```dark_background``` style
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=500>
 
 <p /p>
 
-The ```extensys``` + ```multiple left and right y-axis``` style
+The ```extensys-sc``` style (with scatter)
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig6.png" width=500>
+
+<p /p>
+
+The ```extensys``` + ```multiple left and right y-axis``` style
+
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig7.png" width=500>
 
 <p /p>
 
