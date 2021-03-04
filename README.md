@@ -59,7 +59,7 @@ The ```extensys``` + ```grid``` style
 
 <p /p>
 
-The ```extensys``` + ```multiple y-axis``` style
+The ```extensys``` + ```markers``` style
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=600>
 
@@ -71,9 +71,15 @@ The ```extensys``` + ```notebook``` style
 
 <p /p>
 
-The ```extensys``` + ```multiple left and right y-axis``` style
+The ```extensys``` + ```two y-axis``` style
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=600>
+
+<p /p>
+
+The ```extensys``` + ```multiple left and right y-axis``` style
+
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig6.png" width=600>
 
 <p /p>
 
