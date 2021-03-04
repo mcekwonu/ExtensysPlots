@@ -1,11 +1,12 @@
-# Matplotlib extensys format
-# This is the style for "extensys-plot"
+# Matplotlib scatter style format
+#
+# This is the style for "extensys-plot" 
 # see: https://github.com/mcekwonu/ExtensysPlots/
 
 ##***************************************************************************************************
-# set color
+# set marker, color and no lines
 ##***************************************************************************************************
-axes.prop_cycle: cycler('color', ['D2B48C', '778899', 'FF0000', '0000CD', 'FF4500', '00FF00', '00BFFF', '00FFFF', 'F4A460', 'FFD700', '32CD32', 'FF1493', 'D2691E', '008080', '800000', '000000', '8B0000', 'FFFF00', '4B0082','000080'])
+axes.prop_cycle: (cycler('marker', ['<', '^', 'v', 's', 'd', 'h', '>', 'x', 'D', '+', 'p', '*', 'o', '.', '1', '2', '3', '4', 'P', '8']) + cycler('color', ['D2B48C', '778899', 'FF0000', '0000CD', 'FF4500', '00FF00', '00BFFF', '00FFFF', 'F4A460', 'FFD700', '32CD32', 'FF1493', 'D2691E', '008080', '800000', '000000', '8B0000', 'FFFF00', '4B0082','000080']) + cycler('ls', [' ', ' ', ' ', ' ', ' ', ' ',  ' ',  ' ',  ' ',  ' ',  ' ',  ' ',  ' ', ' ' , ' ', ' ', ' ' , ' ', ' ', ' ']))
 
 ##***************************************************************************************************
 # set font
@@ -64,7 +65,7 @@ figure.subplot.top: 0.965
 ##***************************************************************************************************
 # set marker properties
 ##***************************************************************************************************
-lines.markersize: 12
+lines.markersize: 4
 lines.markerfacecolor: none
 lines.markeredgewidth: 0.8
 
@@ -83,10 +84,10 @@ savefig.format: png
 ##***************************************************************************************************
 legend.loc: upper right
 legend.frameon: False
-legend.title_fontsize : 8
+legend.title_fontsize : 10
 legend.labelspacing: 0.3
 legend.fontsize: 14
 legend.columnspacing: 1.0
-legend.borderaxespad: -0.5
+legend.borderaxespad: -0.5  # legend position borderaxespad
 
 #

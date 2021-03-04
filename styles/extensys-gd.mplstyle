@@ -1,5 +1,6 @@
-# Matplotlib extensys format
-# This is the style for "extensys-plot"
+# Matplotlib extensys with grid format
+#
+# This is the style for "extensys-plot".
 # see: https://github.com/mcekwonu/ExtensysPlots/
 
 ##***************************************************************************************************
@@ -87,6 +88,18 @@ legend.title_fontsize : 8
 legend.labelspacing: 0.3
 legend.fontsize: 14
 legend.columnspacing: 1.0
-legend.borderaxespad: -0.5
+legend.numpoints: 3
+legend.framealpha: 0.9
+legend.fancybox: True
+legend.borderaxespad: -0.5  # legend position borderaxespad
 
-#
+
+##***************************************************************************************************
+# Set Grid lines
+##***************************************************************************************************
+axes.grid: True
+grid.color: k
+grid.alpha: 0.5
+grid.linewidth: 0.4
+grid.linestyle: --
+
