@@ -132,7 +132,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         plt.rcParams.update({
         "font.family": "serif",   # specify font family here
         "font.serif": ["Times"],  # specify font here
-        "font.size":11})          # specify font size here
+        "font.size":12})          # specify font size here
         ```
         
 3. Adjusting the legend placement:
@@ -141,8 +141,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         ```python
         import matplotlib.pyplot as plt
         plt.style.use('extensys')
-        plt.rcParams.update({
-        "legend.borderaxespad": -4.0 })     # specify value here
+        plt.rcParams.update({"legend.borderaxespad": -4.0})
         ```
         
 4. Installing ExtensysPlots within Google Colab, IPython, Jupyter Notebooks, etc.:
