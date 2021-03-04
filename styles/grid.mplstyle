@@ -10,7 +10,7 @@ grid.linestyle: --
 
 
 # Legend
-legend.frameon: True
-legend.framealpha: 0.9
+legend.frameon: False
+legend.framealpha: 0.1
 legend.fancybox: True
-legend.numpoints: 1
+legend.numpoints: 3
