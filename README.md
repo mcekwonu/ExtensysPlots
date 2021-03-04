@@ -5,7 +5,7 @@
 Matplotlib extensys style for making figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=400>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=500>
 
 ## Getting Started
 The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/stable/): 
@@ -49,7 +49,7 @@ plt.savefig("figures/fig1" + ".pdf", dpi=1000)
 
 The ```extensys``` style:
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=400>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=500>
 
 <p /p>
 
@@ -61,7 +61,7 @@ The ```extensys``` + ```markers``` style
 
 The ```extensys``` + ```grid``` style
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=400>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=500>
 
 <p /p>
 
@@ -73,13 +73,13 @@ The ```extensys``` + ```notebook``` style
 
 The ```extensys``` + ```left and right y-axis``` style
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=400>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=500>
 
 <p /p>
 
 The ```extensys``` + ```multiple left and right y-axis``` style
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig6.png" width=400>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig6.png" width=500>
 
 <p /p>
 
