@@ -5,7 +5,7 @@
 Matplotlib extensys style for making originpro-like figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
 
-![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png){:height="50px" :width="50px"}
+[[(https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png) | width="50px"]]
 
 ## Getting Started
 The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/stable/): 
