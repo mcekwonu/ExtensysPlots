@@ -2,7 +2,7 @@
 
 `https://doi.org/10.5281/zenodo.4572436?sanitize=true&raw=true`
 
-Matplotlib extensys style for making originpro-like figures
+Matplotlib extensys style for making figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
 
 ![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png)
