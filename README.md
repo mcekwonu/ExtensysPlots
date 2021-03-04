@@ -11,7 +11,7 @@ This repo has Matplotlib Extensys style to format your figure for scientific pub
 The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/stable/): 
 ```
 # to install the latest release (from PyPI) 
-pip install Extensys
+pip install ExtensysPlots
 
 # to install latest commit (from GitHub)
 pip install git+https://github.com/mcekwonu/ExtensysPlots.git
