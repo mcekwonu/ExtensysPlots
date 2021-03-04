@@ -1,1 +1,6 @@
+# Add fonts for CJK (Chinese) characters
+# See FAQ in README for installation instructions
 
+
+font.Sans Mono: Noto Sans Mono CJK TC
+font.family: Sans Mono
