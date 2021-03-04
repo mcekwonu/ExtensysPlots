@@ -1,0 +1,3 @@
+# Disable LaTeX
+
+text.usetex: False

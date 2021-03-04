@@ -1,1 +1,90 @@
+# MATPLOTLIB FORMAT FOR EXTENSYS
+# This is the style for "originpro plot" in matplotlib
+# see: https://github.com/mcekwonu/ExtensysPlot/
 
+##***************************************************************************************************
+# set color
+##***************************************************************************************************
+axes.prop_cycle: cycler('color', ['D2B48C', '778899', 'FF0000', '0000CD', 'FF4500', '00FF00', '00BFFF', '00FFFF', 'F4A460', 'FFD700', '32CD32', 'FF1493', 'D2691E', '008080', '800000', '000000', '8B0000', 'FFFF00', '4B0082','000080'])
+
+##***************************************************************************************************
+# set font
+##***************************************************************************************************
+font.family: sans-serif
+font.sans-serif : Arial
+font.size : 12.0
+mathtext.fontset: dejavuserif
+
+##***************************************************************************************************
+# set Axes
+##***************************************************************************************************
+axes.linewidth: 1.1
+axes.labelpad : 6.0
+axes.xmargin: 0
+axes.ymargin: 0
+axes.labelweight: normal
+axes.labelsize: 12
+axes.autolimit_mode: round_numbers
+
+##***************************************************************************************************
+# set xAxis
+##***************************************************************************************************
+xtick.major.size: 7
+xtick.minor.size: 3.5
+xtick.major.width: 1.1
+xtick.minor.width: 1.1
+xtick.major.pad: 5
+xtick.minor.visible: True
+xtick.top: False
+
+
+##***************************************************************************************************
+# set yAxis
+##***************************************************************************************************
+ytick.major.size: 7
+ytick.minor.size: 3.5
+ytick.major.width: 1.1
+ytick.minor.width: 1.1
+ytick.major.pad: 5
+ytick.minor.visible: True
+ytick.right: True
+
+##***************************************************************************************************
+# set figure
+##***************************************************************************************************
+figure.figsize: 3.5, 2.5
+figure.subplot.left: 0.177
+figure.subplot.right: 0.946
+figure.subplot.bottom: 0.156
+figure.subplot.top: 0.965
+
+
+##***************************************************************************************************
+# set marker properties
+##***************************************************************************************************
+lines.markersize: 10
+lines.markerfacecolor: none
+lines.markeredgewidth: 0.8
+
+
+##***************************************************************************************************
+# set savefig
+##***************************************************************************************************
+savefig.bbox: tight
+savefig.pad_inches: 0.05
+savefig.dpi: 500
+savefig.format: png
+
+
+##***************************************************************************************************
+# set legend
+##***************************************************************************************************
+legend.loc: upper right
+legend.frameon: False
+legend.title_fontsize : 6
+legend.labelspacing: 0.3
+legend.fontsize: 10
+legend.columnspacing: 1.0
+legend.borderaxespad: -1.0  # legend position borderaxespad
+
+#
