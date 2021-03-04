@@ -60,6 +60,7 @@ fig, ax = plt.subplots(figsize=(8, 6))
 The ```extensys``` style:
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=600>
+
 <p /p>
 
 The ```extensys``` + ```grid``` style
@@ -69,6 +70,7 @@ The ```extensys``` + ```grid``` style
 <p /p>
 
 The ```extensys``` + ```multiple y-axis``` style
+
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=600>
 
 <p /p>
@@ -82,6 +84,8 @@ The ```extensys``` + ```notebook``` style
 The ```extensys``` + ```multiple left and right y-axis``` style
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=600>
+
+<p /p>
 
 ## Help and Contribution
 
