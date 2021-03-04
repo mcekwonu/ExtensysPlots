@@ -1,4 +1,5 @@
-# Matplotlib extensys format
+# MATPLOTLIB style for Jupyter notebooks
+#
 # This is the style for "extensys-plot"
 # see: https://github.com/mcekwonu/ExtensysPlots/
 
@@ -11,9 +12,8 @@ axes.prop_cycle: cycler('color', ['D2B48C', '778899', 'FF0000', '0000CD', 'FF450
 # set font
 ##***************************************************************************************************
 font.family: sans-serif
-#font.sans-serif : Arial
 font.size : 16
-mathtext.fontset: dejavuserif
+
 
 ##***************************************************************************************************
 # set Axes
@@ -25,14 +25,17 @@ axes.ymargin: 0
 axes.labelweight: normal
 axes.labelsize: 16
 axes.autolimit_mode: round_numbers
+axes.titlesize: 16
+grid.linewidth: 1
+
 
 ##***************************************************************************************************
 # set xAxis
 ##***************************************************************************************************
-xtick.major.size: 7
-xtick.minor.size: 3.5
-xtick.major.width: 1.1
-xtick.minor.width: 1.1
+xtick.major.size: 6
+xtick.minor.size: 3
+xtick.major.width: 1
+xtick.minor.width: 1
 xtick.major.pad: 5
 xtick.minor.visible: True
 xtick.top: False
@@ -42,10 +45,10 @@ xtick.labelsize: 16
 ##***************************************************************************************************
 # set yAxis
 ##***************************************************************************************************
-ytick.major.size: 7
-ytick.minor.size: 3.5
-ytick.major.width: 1.1
-ytick.minor.width: 1.1
+ytick.major.size: 6
+ytick.minor.size: 3
+ytick.major.width: 1
+ytick.minor.width: 1
 ytick.major.pad: 5
 ytick.minor.visible: True
 ytick.right: True
@@ -65,6 +68,7 @@ figure.subplot.top: 0.965
 # set marker properties
 ##***************************************************************************************************
 lines.markersize: 12
+lines.linewidth: 2.0
 lines.markerfacecolor: none
 lines.markeredgewidth: 0.8
 
@@ -83,10 +87,13 @@ savefig.format: png
 ##***************************************************************************************************
 legend.loc: upper right
 legend.frameon: False
-legend.title_fontsize : 8
+legend.title_fontsize : 16
 legend.labelspacing: 0.3
-legend.fontsize: 14
+legend.fontsize: 16
 legend.columnspacing: 1.0
 legend.borderaxespad: -0.5  # legend position borderaxespad
 
-#
+##****************************************************************************************************
+# Use LaTeX for math formatting
+##****************************************************************************************************
+text.usetex: False

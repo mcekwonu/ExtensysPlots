@@ -1,5 +1,6 @@
-# Matplotlib extensys format
-# This is the style for "extensys-plot"
+# Matplotlib pgf format
+#
+# This is the style for "extensys-plot" in matplotlib
 # see: https://github.com/mcekwonu/ExtensysPlots/
 
 ##***************************************************************************************************
@@ -89,4 +90,8 @@ legend.fontsize: 14
 legend.columnspacing: 1.0
 legend.borderaxespad: -0.5  # legend position borderaxespad
 
-#
+
+##***************************************************************************************************
+# Add LaTeX package to allow PGF plots
+##***************************************************************************************************
+text.latex.preamble : \usepackage{amsmath}, \usepackage[T1]{fontenc}, \usepackage{pgfplots}
