@@ -4,7 +4,7 @@
 
 Matplotlib extensys style for making originpro-like figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
-![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png){:height="300" :width="300"}
+![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png){:height="150" :width="150"}
 ## Getting Started
 The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/stable/): 
 ```
@@ -55,16 +55,16 @@ fig, ax = plt.subplots(figsize=(8, 6))
 ## Examples
 
 The ```extensys``` style:
-![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png){:height="300" :width="300"}
+![fig1](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png){:height="150" :width="150"}
 
 The ```extensys``` + ```grid``` style
-![fig2](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png){:height="300" :width="300"}
+![fig2](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png){:height="150" :width="150"}
 
 The ```extensys``` + ```multiple y-axis``` style
-![fig3](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png){:height="300" :width="300"}
+![fig3](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png){:height="150" :width="150"}
 
 The ```extensys``` + ```multiple left and right y-axis``` style
-![fig4](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png){:height="300" :width="300"}
+![fig4](https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png){:height="150" :width="150"}
 
 ## Help and Contribution
 
