@@ -57,23 +57,23 @@ fig, ax = plt.subplots(figsize=(8, 6))
 ## Examples
 
 The ```extensys``` style:
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" height=600 | width=600>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=600 align=center>
 
 
 The ```extensys``` + ```grid``` style
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png" width=600>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig2.png" width=600 align=center>
 
 
 The ```extensys``` + ```multiple y-axis``` style
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=600>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig3.png" width=600 align=center>
 
 
 The ```extensys``` + ```notebook``` style
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png" width=600>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig4.png" width=600 align=center>
 
 
 The ```extensys``` + ```multiple left and right y-axis``` style
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=600>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig5.png" width=600 align=center>
 
 ## Help and Contribution
 
