@@ -85,7 +85,7 @@ The ```extensys-sc``` style (with scatter)
 
 The ```extensys``` + ```multiple left and right y-axis``` style
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig7.png" width=500>
+<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig7.png" width=600>
 
 <p /p>
 
