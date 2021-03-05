@@ -122,7 +122,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
     * You should get back something like ```/home/mce/.config/matplotlib```. You would then put the ```*.mplstyle``` files in ```/home/mce/.config/matplotlib/stylelib/``` (you need to create the stylelib directory):
 
         ```python 
-        cp styles/*/*.mplstyle ~/.config/matplotlib/stylelib/
+        cp styles/*.mplstyle ~/.config/matplotlib/stylelib/
         ```
 
 2. Using different fonts:
