@@ -160,8 +160,6 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 ## ExtensysPlots in Academic Papers
 
-The following papers use ExtensysPlots:
-
 If you use ```ExtensysPlots``` in your paper/thesis, feel free to add it to the list!
 
 ## Citation
