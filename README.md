@@ -13,6 +13,9 @@ The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/s
 # to install the latest release (from PyPI) 
 pip install ExtensysPlots
 
+# in Ubuntu/Debian
+python3 -m pip install ExtensysPlots
+
 # to install latest commit (from GitHub)
 pip install git+https://github.com/mcekwonu/ExtensysPlots.git
 ```
