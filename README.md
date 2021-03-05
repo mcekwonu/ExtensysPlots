@@ -152,7 +152,7 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
     * After installing ExtensysPlots within one of these environments, you may need to reload the Matplotlib style library. For example:
     
         ```python
-        !pip install extensys
+        !pip install ExtensysPlots
         import matplotlib.pyplot as plt
         plt.style.reload_library()
         plt.style.use('extensys')
