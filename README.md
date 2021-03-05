@@ -1,6 +1,6 @@
 # Extensys Plots
 
-<img src="https://doi.org/10.5281/zenodo.4572436">
+<a href="https://doi.org/10.5281/zenodo.4572436"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4572436.svg" alt="DOI"></a>
 
 Matplotlib extensys style for making figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
