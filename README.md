@@ -1,11 +1,11 @@
 # Extensys Plots
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4572436.svg)](https://doi.org/10.5281/zenodo.4572436)
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4572436.svg)](https://doi.org/10.5281/zenodo.4572436)
 
 Matplotlib extensys style for making figures
 This repo has Matplotlib Extensys style to format your figure for scientific publications and presentation.
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/blob/main/examples/figures/fig1.png" width=500>
+![fig1]("https://github.com/mcekwonu/ExtensysPlots/raw/main/examples/figures/fig1.png" width=500)
 
 ## Getting Started
 The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/stable/): 
