@@ -44,7 +44,7 @@ class PostInstallation(install):
 
 setup(
     name=package_name,
-    version='1.0.0',
+    version='1.0.1',
     author="Chukwuemeka Michael Ekwonu",
     author_email="mersthub@gmail.com",
     description="Matplotlib Extensys style format for scientific publications",
@@ -58,6 +58,6 @@ setup(
         "matplotlib-figures",
         "python"],
     url="https://github.com/mcekwonu/ExtensysPlots/",
-    install_requires=['matplotlib', ],
+    install_requires=['matplotlib', 'pandas', ],
     cmdclass={'install': PostInstallation, },
 )
