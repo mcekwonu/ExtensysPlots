@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from examples.utils import is_exist_dir, make_patch_spines_invisible
 
 
-def g(x, m, L=10):
-    return np.cosh(m*(L-x)) / np.cosh(m*L)
+def g(x, m, L=1.0):
+    return (np.cosh(m*(L-x))) / np.cosh(m*L)
 
 
 save_dir = os.path.join(os.path.dirname(__file__), 'figures')
@@ -20,6 +20,16 @@ pparams = dict(xlabel='Fractional distance into pore, $x/L$', ylabel='Concentrat
 x = np.linspace(0, 1, 301)
 
 
+with plt.style.context(['extensys-pl']):
+    fig, ax = plt.subplots()
+
+    for i, m in enumerate([2.0, 5.0, 10.0, 20.0, 25.0, 50.0]):
+        ax.plot(x, g(x, m), label='m = ' + str(m))
+    ax.set(**pparams)
+    ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
+    plt.savefig('{}/fig7'.format(save_dir), dpi=300)
+
+
 with plt.style.context(['extensys']):
     fig, ax = plt.subplots()
 
@@ -27,7 +37,7 @@ with plt.style.context(['extensys']):
         ax.plot(x, g(x, m), label='m = ' + str(m))
     ax.set(**pparams)
     ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig1'.format(save_dir), dpi=300)
+    plt.savefig('{}/fig1'.format(save_dir), dpi=300)
 
 
 with plt.style.context(['extensys-ms']):
@@ -37,7 +47,7 @@ with plt.style.context(['extensys-ms']):
         ax.plot(x, g(x, m), label='m = ' + str(m))
     ax.set(**pparams)
     ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig2'.format(save_dir), dpi=300)
+    plt.savefig('{}/fig2'.format(save_dir), dpi=300)
 
 
 with plt.style.context(['extensys-gd']):
@@ -47,7 +57,7 @@ with plt.style.context(['extensys-gd']):
         ax.plot(x, g(x, m), label='m = ' + str(m))
     ax.set(**pparams)
     ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig3'.format(save_dir), dpi=300)
+    plt.savefig('{}/fig3'.format(save_dir), dpi=300)
 
 
 with plt.style.context(['extensys-nb']):
@@ -56,7 +66,7 @@ with plt.style.context(['extensys-nb']):
         ax.plot(x, g(x, m), label='m = ' + str(m))
     ax.set(**pparams)
     ax.legend(bbox_to_anchor=(0.7, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig4'.format(save_dir), dpi=300)
+    plt.savefig('{}/fig4'.format(save_dir), dpi=300)
 
 
 with plt.style.context(['extensys', 'dark_background']):
@@ -65,7 +75,7 @@ with plt.style.context(['extensys', 'dark_background']):
         ax.plot(x, g(x, m), label='m = ' + str(m))
     ax.set(**pparams)
     ax.legend(bbox_to_anchor=(0.7, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig5'.format(save_dir), dpi=300)
+    plt.savefig('{}/fig5'.format(save_dir), dpi=300)
 
 
 with plt.style.context(['extensys-sc']):
@@ -81,17 +91,7 @@ with plt.style.context(['extensys-sc']):
     ax.set_xlim([-1, 5])
     ax.set_ylim([-1, 5])
     ax.legend(bbox_to_anchor=(0.7, 1.0, 0.2, 0.1), ncol=5)
-    fig.savefig('{}/fig6'.format(save_dir), dpi=300)
-
-
-with plt.style.context(['extensys-pl']):
-    fig, ax = plt.subplots()
-
-    for i, m in enumerate([1.0, 5.0, 10.0, 20.0, 25.0, 50.0]):
-        ax.plot(x, g(x, m), label='m = ' + str(m))
-    ax.set(**pparams)
-    ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig7'.format(save_dir), dpi=300)
+    plt.savefig('{}/fig6'.format(save_dir), dpi=300)
 
 
 # data for multiple y-axis plot
