@@ -5,19 +5,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-def is_exist_dir(dirpath):
-    try:
-        os.makedirs(dirpath)
-    except OSError:
-        pass
-
-
-def make_patch_spines_invisible(ax):
-    ax.set_frame_on(True)
-    ax.patch.set_visible(False)
-    for sp in ax.spines.values():
-        sp.set_visible(False)
+from examples.utils import is_exist_dir, make_patch_spines_invisible
 
 
 def g(x, m, L=10):
@@ -39,7 +27,7 @@ with plt.style.context(['extensys']):
         ax.plot(x, g(x, m), label='m = ' + str(m))
     ax.set(**pparams)
     ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
-    fig.savefig('{}/fig1'.format(save_dir), dpi=500)
+    fig.savefig('{}/fig1'.format(save_dir), dpi=300)
 
 
 with plt.style.context(['extensys-ms']):
@@ -96,6 +84,16 @@ with plt.style.context(['extensys-sc']):
     fig.savefig('{}/fig6'.format(save_dir), dpi=300)
 
 
+with plt.style.context(['extensys-pl']):
+    fig, ax = plt.subplots()
+
+    for i, m in enumerate([1.0, 5.0, 10.0, 20.0, 25.0, 50.0]):
+        ax.plot(x, g(x, m), label='m = ' + str(m))
+    ax.set(**pparams)
+    ax.legend(bbox_to_anchor=(0.6, 1.0, 0.2, 0.1), ncol=3)
+    fig.savefig('{}/fig7'.format(save_dir), dpi=300)
+
+
 # data for multiple y-axis plot
 df = pd.read_csv('data.csv')
 labels = df.columns
@@ -130,14 +128,17 @@ with plt.style.context(['extensys']):
 
     ax.yaxis.label.set_color(p1.get_color())
     ax.tick_params(axis='y', colors=p1.get_color())
+    
     ax2.tick_params(axis='y', colors=p2.get_color())
     ax2.yaxis.label.set_color(p2.get_color())
+    
     ax3.tick_params(axis='y', colors=p3.get_color())
     ax3.yaxis.label.set_color(p3.get_color())
+    
     ax4.tick_params(axis='y', colors=p4.get_color())
     ax4.yaxis.label.set_color(p4.get_color())
 
     lines = [p1, p2, p3, p4]
     ax.legend(lines, [l.get_label() for l in lines], bbox_to_anchor=(0.8, 1.0, 0.2, 0.1), ncol=2)
-    fig.savefig('{}/fig7'.format(save_dir), dpi=300)
+    fig.savefig('{}/fig8'.format(save_dir), dpi=300)
 
