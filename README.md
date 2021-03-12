@@ -32,6 +32,9 @@ Please see the [FAQ](https://github.com/mcekwonu/ExtensysPlots#faq) section for 
 import matplotlib.pyplot as plt
 plt.style.use('extensys')
 ```
+
+Available styles include: ```extensys, extensys-pl, extensys-gd, extensys-nb, extensys-sc```
+
 To use any of the styles temporarily, you can use:
 
 ```python
