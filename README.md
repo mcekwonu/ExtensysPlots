@@ -97,11 +97,19 @@ The ```extensys-sc``` style (with scatter)
 <img src="https://github.com/mcekwonu/ExtensysPlots/raw/main/examples/figures/fig6.png" width=500>
 
 
+
+<p /p>
+
+The ```extensys-pl``` plain style
+
+<img src="https://github.com/mcekwonu/ExtensysPlots/raw/main/examples/figures/fig7.png" width=600>
+
+
 <p /p>
 
 Plotting multiple left and right y-axis using ```extensys``` style
 
-<img src="https://github.com/mcekwonu/ExtensysPlots/raw/main/examples/figures/fig7.png" width=600>
+<img src="https://github.com/mcekwonu/ExtensysPlots/raw/main/examples/figures/fig8.png" width=600>
 
 
 ## Help and Contribution
