@@ -14,7 +14,7 @@ The easist way to install ExtensysPlots is to use [pip](https://pip.pypa.io/en/s
 pip install ExtensysPlots
 
 # in Ubuntu/Debian
-python3 -m pip install ExtensysPlots
+python3 -m pip install extensysplots
 
 # to install latest commit (from GitHub)
 pip install git+https://github.com/mcekwonu/ExtensysPlots.git
@@ -33,7 +33,9 @@ import matplotlib.pyplot as plt
 plt.style.use('extensys')
 ```
 
-Available styles include: ```extensys, extensys-pl, extensys-gd, extensys-nb, extensys-sc```
+Available styles include: 
+```python
+extensys, extensys-pl, extensys-gd, extensys-nb, extensys-sc```
 
 To use any of the styles temporarily, you can use:
 
