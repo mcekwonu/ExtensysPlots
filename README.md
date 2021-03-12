@@ -99,7 +99,7 @@ The ```extensys-sc``` style (with scatter)
 
 <p /p>
 
-The ```extensys``` + ```multiple left and right y-axis``` style
+Plotting multiple left and right y-axis using ```extensys``` style
 
 <img src="https://github.com/mcekwonu/ExtensysPlots/raw/main/examples/figures/fig7.png" width=600>
 
