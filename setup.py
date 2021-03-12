@@ -24,7 +24,7 @@ with open(os.path.join(root, 'README.md'), 'r', encoding='utf-8') as fb:
 
 
 def install_styles():
-    style_files = glob.glob('styles/*.mplstyle', recursive=True)
+    style_files = glob.glob('styles/**/*.mplstyle', recursive=True)
 
     # find stylelib directory, where the *.mplstyle file goes
     mpl_stylelib_dir = os.path.join(matplotlib.get_configdir(), "stylelib")
@@ -32,8 +32,10 @@ def install_styles():
         os.makedirs(mpl_stylelib_dir)
 
     # copy files over
+    print(f"Installing styles into {mpl_stylelib_dir}")
     for style_file in style_files:
-        shutil.copy(style_file, mpl_stylelib_dir)
+        shutil.copy(style_file,
+                    os.path.join(mpl_stylelib_dir, os.path.basename(style_file)))
 
 
 class PostInstallation(install):
@@ -44,7 +46,7 @@ class PostInstallation(install):
 
 setup(
     name=package_name,
-    version='1.0.1',
+    version='1.0.2',
     author="Chukwuemeka Michael Ekwonu",
     author_email="mersthub@gmail.com",
     description="Matplotlib Extensys style format for scientific publications",
