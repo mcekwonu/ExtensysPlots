@@ -34,8 +34,10 @@ plt.style.use('extensys')
 ```
 
 Available styles include: 
+
 ```python
-extensys, extensys-pl, extensys-gd, extensys-nb, extensys-sc```
+extensys, extensys-pl, extensys-gd, extensys-nb, extensys-sc
+```
 
 To use any of the styles temporarily, you can use:
 
