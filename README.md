@@ -177,7 +177,9 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 If you use ```ExtensysPlots``` in your paper/thesis, feel free to add it to the list!
 
-1. Muhammad Tauseef Nasir, Michael Chukwuemeka Ekwonu, Javad Abolfazli Esfahani, Kyung Chun Kim, (2021): Performance assessment and multi-objective optimization of an Organic Rankine Cycles and Vapor Compression Cycle Based Combined Cooling, Heating, and Power System, Sustainable Energy Technologies and Assessments.
+The following papers used ExtensysPlots:
+
+ * Muhammad Tauseef Nasir, Michael Chukwuemeka Ekwonu, Javad Abolfazli Esfahani, Kyung Chun Kim, (2021): Performance assessment and multi-objective optimization of an Organic Rankine Cycles and Vapor Compression Cycle Based Combined Cooling, Heating, and Power System, Sustainable Energy Technologies and Assessments.
 
 ## Citation
 
