@@ -132,12 +132,16 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
         print(matplotlib.get_configdir())
         ```
         
-        In my case it returned ```/home/mce/.config/matplotlib```
+        In my case it returned ```/home/mce/.config/matplotlib``` on Ubuntu and ```C:\Users\User\.matplotlib``` on Windows. Please verify the location of matplotib configdir as the location may differ for different users depending on how the matplotlib package was installed.
     
     * You should get back something like ```/home/mce/.config/matplotlib```. You would then put the ```*.mplstyle``` files in ```/home/mce/.config/matplotlib/stylelib/``` (you need to create the stylelib directory):
-
+    * For Ubuntu
         ```python 
         cp styles/*.mplstyle ~/.config/matplotlib/stylelib/
+        ```
+   * For Windows
+        ```python
+        cp styles/*.mplstyle ~/.matplotlib/stylelib/
         ```
 
 2. Using different fonts:
