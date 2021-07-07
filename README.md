@@ -179,11 +179,11 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 ## ExtensysPlots in Academic Papers
 
-If you use ```ExtensysPlots``` in your paper/thesis, feel free to add it to the list!
-
 The following papers used ExtensysPlots:
 
- * M.T. Nasir, M.C. Ekwonu, J.A. Esfahani, K.C. Kim, (2021): ["Performance assessment and multi-objective optimization of an Organic Rankine Cycles and Vapor Compression Cycle Based Combined Cooling, Heating, and Power System"], [(open access)]. Sustain. Energy Technol. Assess..
+ * M.T. Nasir, M.C. Ekwonu, J.A. Esfahani, K.C. Kim, (2021): ["Performance assessment and multi-objective optimization of an Organic Rankine Cycles and Vapor Compression Cycle Based Combined Cooling, Heating, and Power System"], [(open access)]. Sustain. Energy Technol. Assess.
+
+If you use ```ExtensysPlots``` in your paper/thesis, feel free to add it to the list!
 
 ## Citation
 
