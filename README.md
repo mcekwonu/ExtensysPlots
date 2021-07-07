@@ -179,7 +179,7 @@ If you use ```ExtensysPlots``` in your paper/thesis, feel free to add it to the 
 
 The following papers used ExtensysPlots:
 
- * M.T. Nasir, M.C. Ekwonu, J.A. Esfahani, K.C. Kim, (2021): ["Performance assessment and multi-objective optimization of an Organic Rankine Cycles and Vapor Compression Cycle Based Combined Cooling, Heating, and Power System"](http://), [(open access)](http://). Sustain. Energy Technol. Assess..
+ * M.T. Nasir, M.C. Ekwonu, J.A. Esfahani, K.C. Kim, (2021): ["Performance assessment and multi-objective optimization of an Organic Rankine Cycles and Vapor Compression Cycle Based Combined Cooling, Heating, and Power System"], [(open access)]. Sustain. Energy Technol. Assess..
 
 ## Citation
 
