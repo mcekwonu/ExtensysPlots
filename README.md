@@ -181,8 +181,8 @@ You can checkout [Matplotlib's documentation](https://matplotlib.org) for more i
 
 The following papers used ExtensysPlots:
 
- * M.T. Nasir, M.C. Ekwonu, J.A. Esfahani, K.C. Kim, (2021): ["Performance assessment and multi-objective optimization of an organic Rankine cycles and vapor compression cycle based combined cooling, heating, and power system, Sustainable Energy Technologies and Assessments,Volume 47, 2021, 101457, ISSN 2213-1388,
-https://doi.org/10.1016/j.seta.2021.101457."], [(open access)](https://www.sciencedirect.com/science/article/pii/S2213138821004677).
+ * M.T. Nasir, M.C. Ekwonu, J.A. Esfahani, K.C. Kim, (2021), "Performance assessment and multi-objective optimization of an organic Rankine cycles and vapor compression cycle based combined cooling, heating, and power system, Sustainable Energy Technologies and Assessments,Volume 47, 2021, 101457, ISSN 2213-1388,
+https://doi.org/10.1016/j.seta.2021.101457.", [(open access)](https://www.sciencedirect.com/science/article/pii/S2213138821004677).
 
 If you use ```ExtensysPlots``` in your paper/thesis, feel free to add it to the list!
 
